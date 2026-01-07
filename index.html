@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium AI Store | ChatGPT & Veo3 BD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            500: '#6366f1', // Indigo
+                            600: '#4f46e5',
+                        },
+                        dark: {
+                            900: '#0f172a',
+                            800: '#1e293b',
+                            700: '#334155',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0f172a; color: #fff; }
+        .glass-effect {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+    <nav class="fixed w-full z-50 glass-effect border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-brand-500">
+                        <i class="fa-solid fa-robot mr-2"></i>AI Store BD
+                    </span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="hover:text-brand-500 px-3 py-2 rounded-md text-sm font-medium transition">হোম</a>
+                        <a href="#products" class="hover:text-brand-500 px-3 py-2 rounded-md text-sm font-medium transition">প্যাকেজসমূহ</a>
+                        <a href="#contact" class="hover:text-brand-500 px-3 py-2 rounded-md text-sm font-medium transition">যোগাযোগ</a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#products" class="bg-brand-600 hover:bg-brand-500 text-white px-5 py-2 rounded-full font-semibold transition shadow-lg shadow-brand-500/30">
+                        অর্ডার করুন
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-20 px-4 text-center relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
+            <div class="absolute -top-10 -left-10 w-72 h-72 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+            <div class="absolute top-0 -right-10 w-72 h-72 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        </div>
+        
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+            ইন্টারন্যাশনাল কার্ড ছাড়াই <br>
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">প্রিমিয়াম একাউন্ট</span> কিনুন
+        </h1>
+        <p class="mt-4 max-w-2xl mx-auto text-xl text-gray-400">
+            ChatGPT Pro, Google One, এবং Veo3 সাবস্ক্রিপশন নিন খুব সহজে। বিকাশ বা নগদে পেমেন্ট করুন, আমরা আপনার একাউন্ট আপগ্রেড করে দিবো।
+        </p>
+        <div class="mt-10 flex justify-center gap-4">
+            <a href="#products" class="px-8 py-3 rounded-lg bg-white text-dark-900 font-bold hover:bg-gray-200 transition">
+                প্যাকেজ দেখুন
+            </a>
+            <a href="https://wa.me/8801700000000" target="_blank" class="px-8 py-3 rounded-lg border border-gray-600 hover:border-brand-500 hover:text-brand-500 transition">
+                <i class="fa-brands fa-whatsapp mr-2"></i>চ্যাট করুন
+            </a>
+        </div>
+    </section>
+
+    <section class="py-12 bg-dark-800/50">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="p-6 rounded-xl bg-dark-700/30 border border-gray-700">
+                <i class="fa-solid fa-bolt text-4xl text-yellow-400 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">দ্রুত ডেলিভারি</h3>
+                <p class="text-gray-400">অর্ডার কনফার্ম করার ৩০ মিনিটের মধ্যে একাউন্ট ডেলিভারি।</p>
+            </div>
+            <div class="p-6 rounded-xl bg-dark-700/30 border border-gray-700">
+                <i class="fa-solid fa-lock text-4xl text-green-400 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">নিরাপদ ও বিশ্বস্ত</h3>
+                <p class="text-gray-400">কোনো পাসওয়ার্ড শেয়ারের ঝামেলা নেই, ১০০% প্রাইভেসি।</p>
+            </div>
+            <div class="p-6 rounded-xl bg-dark-700/30 border border-gray-700">
+                <i class="fa-solid fa-headset text-4xl text-blue-400 mb-4"></i>
+                <h3 class="text-xl font-bold mb-2">সাপোর্ট</h3>
+                <p class="text-gray-400">যেকোনো সমস্যায় আমাদের হোয়াটসঅ্যাপ সাপোর্ট টিম পাশে আছে।</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-20 max-w-7xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12">জনপ্রিয় সাবস্ক্রিপশন প্ল্যান</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <div class="glass-effect rounded-2xl p-8 transform hover:-translate-y-2 transition duration-300">
+                <div class="h-12 w-12 bg-green-500 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-robot text-white text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold">ChatGPT Plus</h3>
+                <p class="text-gray-400 mt-2">GPT-4, DALL-E 3 এক্সেস</p>
+                <div class="my-6">
+                    <span class="text-4xl font-bold">৳২,৫০০</span>
+                    <span class="text-gray-500">/মাস</span>
+                </div>
+                <ul class="space-y-3 mb-8 text-gray-300">
+                    <li class="flex items-center"><i class="fa-solid fa-check text-green-400 mr-2"></i> ফাস্ট রেসপন্স</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-green-400 mr-2"></i> প্লাগিন এক্সেস</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-green-400 mr-2"></i> প্রাইওরিটি এক্সেস</li>
+                </ul>
+                <button onclick="openModal('ChatGPT Plus', '2500')" class="w-full py-3 rounded-lg bg-green-600 hover:bg-green-500 font-bold transition">
+                    অর্ডার করুন
+                </button>
+            </div>
+
+            <div class="glass-effect rounded-2xl p-8 border-2 border-brand-500 transform scale-105 shadow-2xl shadow-brand-500/20">
+                <div class="absolute top-0 right-0 bg-brand-500 text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-lg">POPULAR</div>
+                <div class="h-12 w-12 bg-purple-500 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fa-solid fa-video text-white text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold">Veo3 Premium</h3>
+                <p class="text-gray-400 mt-2">প্রফেশনাল ভিডিও জেনারেশন</p>
+                <div class="my-6">
+                    <span class="text-4xl font-bold">৳৩,০০০</span>
+                    <span class="text-gray-500">/মাস</span>
+                </div>
+                <ul class="space-y-3 mb-8 text-gray-300">
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-400 mr-2"></i> 4K ভিডিও আউটপুট</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-400 mr-2"></i> আনলিমিটেড জেনারেশন</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-brand-400 mr-2"></i> ওয়াটারমার্ক রিমুভ</li>
+                </ul>
+                <button onclick="openModal('Veo3 Premium', '3000')" class="w-full py-3 rounded-lg bg-brand-600 hover:bg-brand-500 font-bold transition">
+                    অর্ডার করুন
+                </button>
+            </div>
+
+            <div class="glass-effect rounded-2xl p-8 transform hover:-translate-y-2 transition duration-300">
+                <div class="h-12 w-12 bg-blue-500 rounded-lg flex items-center justify-center mb-6">
+                    <i class="fa-brands fa-google text-white text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold">Google One AI</h3>
+                <p class="text-gray-400 mt-2">2TB স্টোরেজ + Gemini Adv.</p>
+                <div class="my-6">
+                    <span class="text-4xl font-bold">৳৫৫০</span>
+                    <span class="text-gray-500">/মাস</span>
+                </div>
+                <ul class="space-y-3 mb-8 text-gray-300">
+                    <li class="flex items-center"><i class="fa-solid fa-check text-blue-400 mr-2"></i> 2TB ক্লাউড স্টোরেজ</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-blue-400 mr-2"></i> Gemini Advanced</li>
+                    <li class="flex items-center"><i class="fa-solid fa-check text-blue-400 mr-2"></i> ফ্যামিলি শেয়ারিং</li>
+                </ul>
+                <button onclick="openModal('Google One AI', '2200')" class="w-full py-3 rounded-lg bg-blue-600 hover:bg-blue-500 font-bold transition">
+                    অর্ডার করুন
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-dark-900 border-t border-gray-800 py-10 mt-10">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-4">AI Store BD</h2>
+            <p class="text-gray-500 mb-6">বিশ্বাস এবং সততার সাথে আপনাদের সেবায় নিয়োজিত।</p>
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fa-brands fa-facebook text-2xl"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fa-brands fa-whatsapp text-2xl"></i></a>
+            </div>
+            <p class="text-gray-600 text-sm">&copy; 2026 AI Store BD. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="orderModal" class="fixed inset-0 z-50 hidden overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <div class="fixed inset-0 bg-gray-900 bg-opacity-90 transition-opacity" aria-hidden="true" onclick="closeModal()"></div>
+
+            <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+
+            <div class="inline-block align-bottom bg-dark-800 rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full border border-gray-700">
+                
+                <div class="bg-dark-700 px-4 py-3 sm:px-6 flex justify-between items-center">
+                    <h3 class="text-lg leading-6 font-medium text-white" id="modal-title">অর্ডার ফর্ম পূরণ করুন</h3>
+                    <button onclick="closeModal()" class="text-gray-400 hover:text-white focus:outline-none">
+                        <i class="fa-solid fa-xmark text-xl"></i>
+                    </button>
+                </div>
+
+                <div class="px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                    <div class="bg-blue-900/30 border border-blue-500/50 rounded-lg p-4 mb-4">
+                        <p class="text-sm text-blue-200">
+                            অনুগ্রহ করে <span class="font-bold text-white">017XXXXXXXX</span> (বিকাশ/নগদ Personal) নাম্বারে সেন্ড মানি করে নিচের ফর্মটি পূরণ করুন।
+                        </p>
+                    </div>
+
+                    <form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST" id="purchaseForm">
+                        
+                        <input type="hidden" id="selectedService" name="Service Name">
+                        <input type="hidden" id="servicePrice" name="Price">
+
+                        <div class="mb-4">
+                            <label class="block text-gray-400 text-sm font-bold mb-2" for="name">আপনার নাম</label>
+                            <input class="w-full bg-dark-900 text-white border border-gray-600 rounded py-2 px-3 focus:outline-none focus:border-brand-500" id="name" name="Name" type="text" placeholder="পুরো নাম" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="block text-gray-400 text-sm font-bold mb-2" for="email">ইমেইল এড্রেস</label>
+                            <input class="w-full bg-dark-900 text-white border border-gray-600 rounded py-2 px-3 focus:outline-none focus:border-brand-500" id="email" name="Email" type="email" placeholder="example@gmail.com" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="block text-gray-400 text-sm font-bold mb-2" for="phone">মোবাইল / হোয়াটসঅ্যাপ নাম্বার</label>
+                            <input class="w-full bg-dark-900 text-white border border-gray-600 rounded py-2 px-3 focus:outline-none focus:border-brand-500" id="phone" name="Phone" type="tel" placeholder="017..." required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="block text-gray-400 text-sm font-bold mb-2" for="trxid">বিকাশ/নগদ Transaction ID</label>
+                            <input class="w-full bg-dark-900 text-white border border-gray-600 rounded py-2 px-3 focus:outline-none focus:border-brand-500" id="trxid" name="TrxID" type="text" placeholder="Ex: 9H7JKA..." required>
+                        </div>
+
+                        <div class="mt-6">
+                            <button type="submit" class="w-full bg-brand-600 hover:bg-brand-500 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline transition">
+                                অর্ডার কনফার্ম করুন
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(serviceName, price) {
+            document.getElementById('orderModal').classList.remove('hidden');
+            document.getElementById('selectedService').value = serviceName;
+            document.getElementById('servicePrice').value = price;
+            document.getElementById('modal-title').innerText = serviceName + " - ৳" + price;
+        }
+
+        function closeModal() {
+            document.getElementById('orderModal').classList.add('hidden');
+        }
+    </script>
+
+</body>
+              </html>
